@@ -1,4 +1,5 @@
-import 'dotenv/config';
+import dotenv from 'dotenv';
+dotenv.config();
 
 const dbName = process.env.DATABASE_NAME;
 const dbUser = process.env.DATABASE_USER;
